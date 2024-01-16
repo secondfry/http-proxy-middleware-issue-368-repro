@@ -29,5 +29,5 @@ User request for: /@fs/Users/secondfry/sources/http-proxy-middleware-issue-368-r
 User request for: /favicon.png
 ```
 
-Due to ` http-proxy-middleware`` adding trailing slash to  `target`
+Due to `http-proxy-middleware` adding trailing slash to `target`
 and SvelteKit redirecting to URL without that trailing slash.
